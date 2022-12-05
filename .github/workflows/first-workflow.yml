@@ -1,0 +1,9 @@
+name: first-workflow
+on: push
+jobs:
+ build:
+  runs-on: ubuntu-latest
+  steps:
+   -name: myfirst-step
+   -run: echo"Hello, World!"
+   
