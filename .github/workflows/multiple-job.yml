@@ -14,7 +14,8 @@ jobs:
   runs-on: ubuntu-latest
   steps: 
    - name: status
-     run: echo "successfull"
+     run: pwd
+     
   
      
    
