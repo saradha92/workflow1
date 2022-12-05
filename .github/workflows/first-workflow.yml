@@ -4,6 +4,6 @@ jobs:
  build:
   runs-on: ubuntu-latest
   steps:
-   -name: myfirst-step
-   -run: echo"Hello, World!"
+   - name: myfirst-step
+     run: echo"Hello, World!"
    
