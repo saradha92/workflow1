@@ -1,0 +1,11 @@
+name: first-workflow
+on: push
+jobs:
+ build:
+  run-on: ubuntu-latest
+  steps:
+   -name: get-code
+   -uses: actions/checkout@v3
+   -name: Install NodeJS
+   -uses: actions/setup-node@v3
+   
